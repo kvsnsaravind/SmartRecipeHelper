@@ -1,5 +1,5 @@
 import streamlit as st
-from controller.controller import handle_image_upload, handle_text_query
+from controller import handle_image_upload, handle_text_query
 import requests
 from PIL import Image
 from io import BytesIO
